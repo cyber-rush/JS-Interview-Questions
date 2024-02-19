@@ -1,5 +1,11 @@
-// Create an array named colors that contains five different names of colors as strings.
-const colors = ['Red', 'Blue', 'Green', 'Yellow', 'Orange']
+// Short circuiting with the concept of return values
 
-// Access the first color in the array and print it to the console using console.log()
-console.log(colors[0])
+function left() {
+    return console.log('left')
+}
+
+function right() {
+    return console.log('right')
+}
+
+left() || right()
