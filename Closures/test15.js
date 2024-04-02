@@ -1,3 +1,4 @@
+// Closures concept --> Function returned inside another function
 const func = (val) => {
     return () => {
         if (val) {
