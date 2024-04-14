@@ -1,7 +1,7 @@
 let x = 10
 
 {
-    console.log(x)
+    console.log(x) // Here it will look for a reference of x in this current scope and find let x below it thus it goes into TDZ. If there had not been any let x in this scope then it would have taken the value of its parent i.e let x = 10
     let x = 20
     console.log(x)
 }
