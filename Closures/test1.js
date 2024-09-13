@@ -1,4 +1,3 @@
-// closures
 
 function x() {
     let a = 7

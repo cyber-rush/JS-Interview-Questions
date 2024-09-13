@@ -1,12 +1,12 @@
 greet('John')
 
+function greet(name) {
+    console.log('Hello', name)
+}
 var greet = (name) => {
     console.log('Good Day', name)
 }
 
-function greet(name) {
-    console.log('Hello', name)
-}
 
 greet('John')
 
